@@ -2,7 +2,38 @@ body {
   margin: 0;
 }
 
+@media screen and (max-width:480px) {
+  .paisaje {
+    background-image: url("img/night.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+  }
+  .gato {
+    background-image: url("img/kitten-small.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+}
+
+@media screen and (min-width:480px) and (max-width:780px) {
+  .paisaje {
+    background-image: url("img/sunny-day.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+  }
+  .gato {
+    background-image: url("img/kitten-medium.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+}
+
 @media screen and (min-width:780px) and (max-width:1600px) {
+
   .paisaje {
     background-image: url("img/dawn.png");
     background-size: cover;
@@ -11,36 +42,6 @@ body {
   }
   .gato {
     background-image: url("img/kitten-large.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100%;
-  }
-}
-
-@media screen and (min-width:480px) and (max-width:780px) {
-  .paisaje-med {
-    background-image: url("img/sunny-day.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 500px;
-  }
-  .gato-med {
-    background-image: url("img/kitten-medium.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100%;
-  }
-}
-
-@media screen and (max-width:480px) {
-  .paisaje-small {
-    background-image: url("img/night.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 500px;
-  }
-  .gato-small {
-    background-image: url("img/kitten-small.png");
     background-position: center;
     background-repeat: no-repeat;
     height: 100%;
