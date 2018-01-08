@@ -32,7 +32,7 @@ body {
   }
 }
 
-@media screen and (min-width:780px) and (max-width:1600px) {
+@media screen and (min-width:780px) {
 
   .paisaje {
     background-image: url("img/dawn.png");
